@@ -6,7 +6,7 @@
 /*   By: cweather <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/01 16:39:23 by cweather          #+#    #+#             */
-/*   Updated: 2017/09/27 20:42:20 by cweather         ###   ########.fr       */
+/*   Updated: 2017/09/29 15:36:57 by cweather         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,5 +87,11 @@ void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void			ft_error(char *str);
 int				get_next_line(const int fd, char **line);
+char			**ft_sstradd(char **s, char *add);
+void			ft_sstrdel(char **s);
+char			**ft_sstrdup(char **src);
+int				ft_sstrlen(char **s);
+char			**ft_sstrnew(size_t size);
+char			*ft_sstrtostr(char **s, char *sep);
 
 #endif

@@ -6,7 +6,7 @@
 #    By: cweather <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/06/30 20:58:30 by cweather          #+#    #+#              #
-#    Updated: 2017/09/27 20:40:25 by cweather         ###   ########.fr        #
+#    Updated: 2017/09/29 15:36:27 by cweather         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,9 @@ SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c \
 	ft_strncpy.c ft_strnequ.c ft_strnew.c ft_strnstr.c ft_strrchr.c \
 	ft_strsplit.c ft_strstr.c ft_strsub.c ft_strtrim.c ft_tolower.c \
 	ft_toupper.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c \
-	ft_lstiter.c ft_lstmap.c ft_error.c get_next_line.c
+	ft_lstiter.c ft_lstmap.c ft_error.c get_next_line.c ft_sstradd.c \
+	ft_sstrdel.c ft_sstrdup.c ft_sstrlen.c ft_sstrnew.c ft_sstrtostr.c \
+
 HEADER = libft.h
 
 all: $(NAME)
