@@ -6,7 +6,7 @@
 /*   By: cweather <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/09/25 19:14:57 by cweather          #+#    #+#             */
-/*   Updated: 2017/09/30 02:33:40 by cweather         ###   ########.fr       */
+/*   Updated: 2017/10/02 14:11:47 by cweather         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ static int		keyhook(int key, t_fdf *f)
 	(key == HPOS) ? f->height++ : (0);
 	(key == HNEG && f->height) ? f->height-- : (0);
 	(key == SPOS && f->speed < 10) ? f->speed++ : (0);
-	(key == SNEG && f->speed) ? f->speed -- : (0);
+	(key == SNEG && f->speed) ? f->speed-- : (0);
 	(key == XPOS) ? f->pos_x += f->speed : (0);
 	(key == XNEG) ? f->pos_x -= f->speed : (0);
 	(key == YPOS) ? f->pos_y += f->speed : (0);
